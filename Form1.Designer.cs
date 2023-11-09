@@ -38,6 +38,7 @@
             this.txtKq = new System.Windows.Forms.TextBox();
             this.btTru = new System.Windows.Forms.Button();
             this.btNhan = new System.Windows.Forms.Button();
+            this.btChia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -131,6 +132,16 @@
             this.btNhan.UseVisualStyleBackColor = true;
             this.btNhan.Click += new System.EventHandler(this.btNhan_Click);
             // 
+            // btChia
+            // 
+            this.btChia.Location = new System.Drawing.Point(416, 233);
+            this.btChia.Name = "btChia";
+            this.btChia.Size = new System.Drawing.Size(75, 23);
+            this.btChia.TabIndex = 1;
+            this.btChia.Text = "Chia";
+            this.btChia.UseVisualStyleBackColor = true;
+            this.btChia.Click += new System.EventHandler(this.btChia_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,6 +152,7 @@
             this.Controls.Add(this.txtSoA);
             this.Controls.Add(this.btNhan);
             this.Controls.Add(this.btTru);
+            this.Controls.Add(this.btChia);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
@@ -165,6 +177,7 @@
         private System.Windows.Forms.TextBox txtKq;
         private System.Windows.Forms.Button btTru;
         private System.Windows.Forms.Button btNhan;
+        private System.Windows.Forms.Button btChia;
     }
 }
 

@@ -19,9 +19,10 @@ namespace Calculator
 
         private void btCong_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(txtSoA.Text);
-            double b = double.Parse(txtSoB.Text);
-            double c = a + b;
+            double a, b, c;
+             a = double.Parse(txtSoA.Text);
+             b = double.Parse(txtSoB.Text);
+             c = a + b;
             txtKq.Text = c.ToString();
         }
 
@@ -39,6 +40,12 @@ namespace Calculator
             double b = double.Parse(txtSoB.Text);
             double c = a * b;
             txtKq.Text = c.ToString();
+        }
+
+        private void btChia_Click(object sender, EventArgs e)
+        {
+           
+            
         }
     }
 }
